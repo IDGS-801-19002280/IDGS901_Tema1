@@ -1,0 +1,21 @@
+﻿@model Pulques.Models.Plano
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Calculadora</h2>
+
+<form method="/" action="post">
+    <label>X1: </label>
+    <input type="text" name="x1" />
+    <label>X2: </label>
+    <input type="text" name="x2" />
+    <label>Y1: </label>
+    <input type="text" name="y1" />
+    <label>Y2: </label>
+    <input type="text" name="y2" />
+    <input type="submit" />
+</form>
+
+<h1>@Html.DisplayFor(model => model.distancia)</h1>

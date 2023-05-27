@@ -1,0 +1,15 @@
+﻿@model Pulques.RouteConfig
+
+@{
+    ViewBag.Title = "informasion";
+}
+
+<h2>informasion</h2>
+<h1>@ViewBag.Grupo</h1>
+<h2>@ViewData["Materias"]</h2>
+
+<h3>-----------------------------------------</h3>
+
+<h1>@ViewBag.Nombre</h1>
+@{Html.RenderAction("About", "Home");}
+

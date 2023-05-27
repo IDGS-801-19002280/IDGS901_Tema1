@@ -1,0 +1,14 @@
+﻿@model Pulques.Models.Persona
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@ViewBag.Persona
+<h1>@Html.Display("Persona")</h1>
+
+<hr />
+
+@Html.Editor("Persona")
